@@ -121,6 +121,7 @@ export default class ObsidianRaindrop extends Plugin {
     });
 
     try {
+      el.empty();
       new RaindropBlockQueryProvider({
         target: el,
         props: {
